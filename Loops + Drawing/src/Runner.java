@@ -14,7 +14,7 @@ public class Runner extends JPanel{
 	public void paint(Graphics g) {
 		
 		Graphics2D g2 = (Graphics2D) g;
-        g2.setStroke(new BasicStroke(5));
+        g2.setStroke(new BasicStroke(1));
         
 		 
 		//1) draw a concentric rectangle that's 10pixels from all sides of the "gray"
@@ -29,10 +29,8 @@ public class Runner extends JPanel{
 		//3) Draw a vertical line to bisect the shape again
 		g2.drawLine(765/2, 10, 765/2,550 );
 		
-		
 		//4) small rectangles on top-left
 		g2.drawLine(765/4, 10, 765/4, 550/2-10);
-		
 		
 		/* 
 		 * int var = 0; 						<---- control variable
